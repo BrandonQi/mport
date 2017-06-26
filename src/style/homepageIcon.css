@@ -1,0 +1,34 @@
+.homepageIcon {
+	border-radius: 100px;
+	border: solid 1px black;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  height: 200px;
+  width: 200px;
+}
+
+.iconContainer:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  text-align: center;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #337ab7;
+}
+
+.text {
+    font-size: 40px;
+    position: absolute;
+    top: 36%;
+    left: 23%;
+    color: whitesmoke;
+}
